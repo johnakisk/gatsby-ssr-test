@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "../styles/index.css";
 
 function Index({ serverData }) {
@@ -6,7 +6,7 @@ function Index({ serverData }) {
 
   return (
     <main>
-      <img src={dogImage}></img>
+      <img src={dogImage.message}></img>
     </main>
   );
 }
